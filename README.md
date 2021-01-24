@@ -15,7 +15,7 @@ Designed and modeled CPU architecture within a FPGA using Verilog to implement a
 Contributions 
 ------------
 
-My role within this group was to design and implement all of the CPU architecture, the VGA implementation, development of the glyph ROM and the testing of this application.
+My role within this group was to design and implement all CPU architecture, the VGA implementation, development of the glyph ROM and the testing of this application.
 
 Best Contribution
 ------------
