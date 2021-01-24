@@ -1,0 +1,5 @@
+MOVI 0, $1 //testing subtract 
+MOVI 0, $2
+ADDI 5, $1
+ADDI 4, $2
+SUB $3, $2

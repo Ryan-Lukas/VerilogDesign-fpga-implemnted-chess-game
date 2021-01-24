@@ -1,0 +1,2 @@
+MOVI 255, $15 //test for movi and LUI
+LUI 170, $15

@@ -1,0 +1,11 @@
+MOVI 5, $2 //test for jcond 
+CMPI 5, $2
+JEQ END
+MOVI 1, $3
+MOVI 1, $3
+MOVI 1, $3
+MOVI 1, $3
+MOVI 1, $3
+MOVI 1, $3
+END: ADDI 10, $2
+MOVI 14, $4

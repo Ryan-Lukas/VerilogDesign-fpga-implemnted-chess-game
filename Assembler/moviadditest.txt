@@ -1,0 +1,3 @@
+MOVI 2, $9 //test movi and AND
+MOVI 9, $10
+AND $10, $9

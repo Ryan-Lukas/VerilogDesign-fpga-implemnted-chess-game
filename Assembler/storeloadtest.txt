@@ -1,0 +1,4 @@
+MOVI 255, $1 //testing load and store 
+MOVI 255, $15
+STOR $1, $15
+LOAD $3, $15

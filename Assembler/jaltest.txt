@@ -1,0 +1,11 @@
+MOVI 5, $2 //test for the Jal and JUC 
+MOVI 1, $4
+MOVI 1, $7
+JAL END
+CMPI 1, $7
+BEQ FINAL
+END: MOVI 2, $5
+MOVI 2, $6
+ADD $5, $6
+JUC $14
+FINAL: MOVI 15, $12

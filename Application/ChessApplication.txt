@@ -1,0 +1,37 @@
+MOVI 255, $12
+MOVI 254, $11
+MOVI 253, $10
+MOVI 0, $9
+userInput: OR $0, $0
+OR $0, $0
+OR $0, $0
+OR $0, $0
+OR $0, $0
+LOAD $1, $12  //load current piece address
+LOAD $2, $11 //load destination piece address 
+LOAD $3, $10 //load 
+LOAD $7, $1 //current 
+LOAD $8, $2 //destination 
+CMPI 0, $3
+JEQ userInput //jump back to user input 
+CMPI 128, $7 //if the peice is greater than it is white 
+JGT white
+CMPI 10, $7 //if it is less than 10 then it is black piece 
+JLT black
+white: CMPI 128, $8 //if the destination is white also, then don't capture 
+JGT userInput
+JNE move //jump to take 
+black: CMPI 0, $8 // if the destination is a square then, move 
+JEQ move 
+CMPI 128, $8 //if it is a white peice then move 
+JGT move
+CMPI 10, $8 //if it is black, then don't move 
+JLT userInput
+move: STOR $7, $2 //store current in destination 
+STOR $9, $1 //store 0 in old location 
+busywait: LOAD $3, $10 //busy wait to prevent screen tearing 
+CMPI 1, $3
+JEQ busywait
+JNE userInput
+
+

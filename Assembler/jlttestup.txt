@@ -1,0 +1,7 @@
+MOVI 1, $1 //jump with label above 
+MOVI 2, $2
+MOVI 3, $3
+LOOP: ADDI 1, $2
+CMPI 4, $2
+JLT LOOP
+END: ADDI 10, $3
