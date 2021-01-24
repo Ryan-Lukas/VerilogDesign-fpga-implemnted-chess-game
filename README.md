@@ -17,10 +17,10 @@ Contributions
 
 My role within this group was to design and implement all CPU architecture, the VGA implementation, development of the glyph ROM and the testing of this application.
 
-Best Contribution
+Recognized Inovation by Professor (Professor of Digital Ascync Design and National Science Foundation (NSF) grant recipient)
 ------------
 
-With over 50 different glyphs that the CPU should choose from to be presented, we had to come up with a way to easily select which glyph is needed where ever the horizontal and vertical count is while the VGA is updating the screen. Within this, I've created a way that uses modulous to easily select while glyph is needed without using over a few hundred if statements. Below is the given code that I worked on and was going over a way to possibly use this code universally with glyph selection.
+With over 50 different glyphs that the CPU should choose from to be presented, we had to come up with a way to easily select which glyph is needed where ever the horizontal and vertical count is while the VGA is updating the screen. Within this, I've created a way that uses modulous to easily select which glyph is needed without using a few hundred if statements. Below is the given code that I worked on and was going over a way to possibly use this code universally within glyph selection.
 
 ```
 always@* begin 
