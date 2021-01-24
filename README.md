@@ -1,4 +1,4 @@
-VerilogDesign-chess-game
+FPGA implemnted chess game
 ==============
 
 Ryan Lukas
@@ -10,7 +10,7 @@ ECE 3700 - Digital System Design - Spring 2019
 Background
 ------------
 
-Designed and modeled CPU architecture within a FPGA using Verilog to implement a modern digital chess game. We used MIPS assembly language and an assembler to convert the MIPS instructions for verilog to comprehend.
+Designed and modeled CPU architecture within a FPGA using Verilog to implement a modern digital chess game. We used MIPS assembly language and an assembler to convert the MIPS instructions for verilog input.
 
 Contributions 
 ------------
