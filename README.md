@@ -12,6 +12,11 @@ Background
 
 Designed and modeled CPU architecture within a FPGA using Verilog to implement a modern digital chess game. We used MIPS assembly language and an assembler to convert the MIPS instructions for verilog to comprehend.
 
+Contributions 
+------------
+
+My role within this group was to design and implement all of the CPU architecture, the VGA implementation, development of the glyph ROM and the testing of this application.
+
 Best Contribution
 ------------
 
